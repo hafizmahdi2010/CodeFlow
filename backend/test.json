@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "name":"index.html",
+      "isIn": "33yvs-32-bs",
+      "content": "This is the content of the index.html file",
+      "date": "2/4/2023"
+    },
+    {
+      "name":"style.css",
+      "isIn": "33yvs-32-bs",
+      "content": "This is the content of the style.css file",
+      "date": "2/4/2023"
+    },
+    {
+      "name":"script.js",
+      "isIn": "33yvs-32-bs",
+      "content": "This is the content of the script.js file",
+      "date": "2/4/2023"
+    }
+  ],
+  "folders": [
+    {
+      "name": "images",
+      "isIn": "33yvs-32-bs",
+      "date": "2/4/2023"
+    },
+    {
+      "name": "fonts",
+      "isIn": "33yvs-32-bs",
+      "date": "2/4/2023"
+    }
+  ]
+}

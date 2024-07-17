@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+:root {
+  --background: #121212;
+  --foreground: #E0E0E0;
+  --primary: #40A9F3;
+  --secondary: #03DAC6;
+  --accent: #FF4081;
+  --error: #CF6679;
+  --border: #292929;
+  --highlight: #282828;
+  --card-bg: #1E1E1E;
+  --hover: #333333;
+  --disabled: #555555;
+  --placeholder: #504d4d;
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--foreground);
+}
+
+button:hover {
+  background-color: var(--hover);
+}
+
+input {
+  background-color: var(--card-bg);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
+
+input:disabled {
+  background-color: var(--disabled);
+  color: var(--border);
+}
+
+.error {
+  color: var(--error);
+}
+
+.btnBlue{
+  padding: 5px 10px;
+  font-size: 13px;  
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btnOutline{
+  padding: 5px 10px;
+  font-size: 13px;  
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.disableSelect{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+.inputBox input{
+  border: 0;
+  outline: 0;
+  flex: 1;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+.inputBox input::placeholder{
+  color: var(--placeholder);
+}
+
+.sideBar{
+  height: calc(100vh - 40px);
+  resize: horizontal;
+}
+
+.file,.folder{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.file:hover,.folder:hover{
+  background-color: var(--hover);
+}
+
+.playground{
+  width: calc(100vw - 20vw);
+  height: calc(100vh - 40px);
+  overflow: hidden;
+}
